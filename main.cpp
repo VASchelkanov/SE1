@@ -1,16 +1,17 @@
 #include <iostream>
 
-/* Autor: Schelkanov V.A.
+/* Autor: Schelkanov V.A., KEz-598, 2025
 training copy of the program */
 
 using namespace std;
 
 int main()
 {
-    int a, b, c;
-    a = 67;
-    b = 33;
-    c = a - b;
-    printf("a - b = %d \n", c);
+ int a, b;
+ cout << "Enter A and B: ";
+ cin >> a >> b;
+ cout << "A + B = " << a + b << '\n'
+      << "A - B = " << a - b << '\n'
+      << "A / B = " << a / b << '\n';
     return 0;
 }
