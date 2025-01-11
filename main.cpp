@@ -1,6 +1,7 @@
 #include <iostream>
 
-/* Autor: Schelkanov V.A. */
+/* Autor: Schelkanov V.A.
+training copy of the program */
 
 using namespace std;
 
