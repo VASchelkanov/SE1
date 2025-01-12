@@ -4,35 +4,36 @@
 
 using namespace std;
 
-Complex::Complex(double aRe, double aIm) {
-    Re = aRe;
+Complex::Complex(double aRe, double aIm) {                         // Конструктор класса Complex,
+    Re = aRe;                                                      // инициализирует действительную и мнимую части
     Im = aIm;
 }
 
-Complex ::  Complex(const Complex& aRval) {
-    Re = aRval.Re;
+Complex ::  Complex(const Complex& aRval) {                        // Конструктор копирования, создает новый
+    Re = aRval.Re;                                                 // объект Complex на основе существующего
     Im = aRval.Im;
 }
 
-Complex::~Complex() {
+Complex::~Complex() {                                              // Деструктор класса Complex, обнуляет действительную и мнимую части
     Re = 0.0;
     Im = 0.0;
 }
 
-void Complex::Set(double aRe,double aIm) {
+void Complex::Set(double aRe,double aIm) {                         // Метод для установки значений действительной и мнимой частей
     Re = aRe;
     Im = aIm;
 }
 
-Complex::operator double() {
+Complex::operator double() {                                       // Оператор приведения к типу double,
+                                                                   // возвращает модуль комплексного числа
     return abs();
 }
 
-double Complex::abs() {
+double Complex::abs() {                                            // Метод для вычисления модуля комплексного числа
     return sqrt(Re * Re + Im * Im);
 }
 
-Complex Complex::operator+(const Complex& aRval) {
+Complex Complex::operator+(const Complex& aRval) {                 // Начало функций над комплексным числом
     Complex Result;
     Result.Re = Re + aRval.Re;
     Result.Im = Im + aRval.Im;
@@ -104,7 +105,7 @@ Complex& Complex::operator+=(const double& aRval) {
     return *this;
 }
 
-Complex& Complex::operator-=(const double& aRval)                                {
+Complex& Complex::operator-=(const double& aRval) {
     Re -= aRval;
     return *this;
 }
@@ -166,3 +167,4 @@ Complex operator*(const double& aRval, const Complex& a) {
     r.Im =aRval * a.Im;
     return r;
 }
+                                                                   // Конец функций над комплексным числом
