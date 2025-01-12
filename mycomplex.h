@@ -2,8 +2,7 @@
 #define _MY_COMPLEX_H_
 #include <iostream>
 using namespace std;
-class Complex
-{
+class Complex {
     double Re;
     double Im;
 
