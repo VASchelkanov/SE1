@@ -1,0 +1,10 @@
+<map id="mycomplex.cpp" name="mycomplex.cpp">
+<area shape="rect" id="Node000001" title="Ôàéë ñ îïèñàíèåì ìåòîäîâ êëàññà Complex." alt="" coords="5,5,119,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="44,155,115,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,34,27,67,21,86,23,106,35,126,52,143,48,147,31,129,18,108,16,86,22,64,47,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="33,80,91,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="65,33,65,64,59,64,59,33"/>
+<area shape="rect" id="Node000004" href="$mycomplex_8h.html" title="Çàãîëîâî÷íûé ôàéë." alt="" coords="115,80,214,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="81,30,136,68,133,73,78,35"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="152,109,107,147,104,143,148,105"/>
+</map>

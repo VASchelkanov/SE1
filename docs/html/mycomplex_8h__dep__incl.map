@@ -1,0 +1,7 @@
+<map id="mycomplex.h" name="mycomplex.h">
+<area shape="rect" id="Node000001" title="Çàãîëîâî÷íûé ôàéë." alt="" coords="76,5,176,32"/>
+<area shape="rect" id="Node000002" href="$mycomplex_8cpp.html" title="Ôàéë ñ îïèñàíèåì ìåòîäîâ êëàññà Complex." alt="" coords="5,80,119,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,46,75,81,71,78,103,42"/>
+<area shape="rect" id="Node000003" href="$testcmp_8cpp.html" title=" " alt="" coords="143,80,237,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,42,181,78,177,81,145,46"/>
+</map>
